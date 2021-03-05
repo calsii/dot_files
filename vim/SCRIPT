@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+
+export VIMCONFIG=~/.vim
+export VIMDATA=~/.vim
+export VISUAL=nvim
+export NVIMCONFIG=~/.config/nvim
+export NVIMDATA=~/.local/share/nvim
+export PATH=$PATH:$VIMCONFIG/pack/minpac/start/fzf/bin
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow -g "!{node_modules,.git,.DS_Store}"'
+export FZF_DEFAULT_OPTS='--height 96% --reverse --preview "cat {}"'
+
+# Use Neovim as "preferred editor"
+# Use Neovim instead of Vim or Vi
+alias vim=nvim
+alias vi=nvim
+
+function fzfi () {
+  $VIMCONFIG/pack/minpac/start/fzf/install --bin
+}

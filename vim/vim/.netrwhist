@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/nick/Dropbox/geektime/rust/gcd/src'
+let g:netrw_dirhist_7='/Users/xicao/Dropbox/geektime/mysql'
+let g:netrw_dirhist_6='/Users/xicao/Dropbox/geektime/worksheet/math'
+let g:netrw_dirhist_5='/Users/xicao/Dropbox/geektime/mysql'
+let g:netrw_dirhist_4='/Users/xicao/Dropbox/geektime/ta'
+let g:netrw_dirhist_3='/Users/xicao/Dropbox/geektime/mysql'
+let g:netrw_dirhist_2='/Users/xicao/Dropbox/geektime'
+let g:netrw_dirhist_1='/Users/xicao/Downloads/code/copy_and_paste'
+let g:netrw_dirhist_0='/Users/xicao/Downloads/code'
+let g:netrw_dirhist_9='/Users/xicao/Downloads/code/files'

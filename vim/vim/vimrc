@@ -1,0 +1,20 @@
+" package management
+source ~/.vim/r/minpac.vim
+
+" basic setup
+runtime! plugin/sensible.vim
+source ~/.vim/r/highlightSearch.vim
+
+" custom settings
+source ~/.vim/r/config.vim
+" mappings
+source ~/.vim/r/mapping.vim
+
+" plugins
+source ~/.vim/r/grepper.vim
+source ~/.vim/r/ale.vim
+source ~/.vim/r/indentLine.vim
+source ~/.vim/r/emmet.vim
+source ~/.vim/r/fzf.vim
+source ~/.vim/r/fugitive.vim
+source ~/.vim/r/nerdtree.vim
