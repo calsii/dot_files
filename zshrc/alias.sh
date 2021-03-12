@@ -13,10 +13,13 @@ alias ls='exa'
 alias cat='bat'
 
 # docker
-alias dsa="docker stop \$(docker ps -aq) && docker rm \$(docker ps -aq)"
+# stop and remove all running containers
+alias dsa="docker stop \$(docker ps -aq) && docker rm -f \$(docker ps -aq)"
 alias dc="docker-compose"
 alias dce="docker-compose exec"
 alias du="dsa && dc up -d"
+# remove all the ununsed images
+alias dclear="docker rmi $(docker images | grep "^<none>" | awk '{print $3}')"
 
 # git
 alias g="git"
@@ -31,4 +34,3 @@ alias gcm="git commit -am"
 alias gr="git reset"
 alias gd="git diff"
 alias gcb="git branch --show-current" # get current git branch name
-
